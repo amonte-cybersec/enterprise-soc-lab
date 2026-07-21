@@ -108,7 +108,7 @@ Systems planned for this network:
 
 
 
-```
+```text
 
 VMware Workstation Pro
 
@@ -136,6 +136,8 @@ VMware Workstation Pro
 
 &#x20;     │                │
 
+
+
 &#x20;ELK SIEM          Kali Linux
 
 &#x20;Domain Controller
@@ -145,12 +147,6 @@ VMware Workstation Pro
 &#x20;Ubuntu Server
 
 ```
-
-
-
-\---
-
-
 
 \# Security Considerations
 
