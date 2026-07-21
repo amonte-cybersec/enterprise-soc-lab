@@ -114,37 +114,37 @@ VMware Workstation Pro
 
 
 
-&#x20;            |
+             |
 
-&#x20;    Virtual Network Editor
-
-
-
-&#x20;      ┌───────────────┐
-
-&#x20;      │               │
-
-&#x20;    VMnet2          VMnet3
-
-&#x20;  Corporate        Attack
-
-&#x20;10.10.10.0/24    10.10.20.0/24
+     Virtual Network Editor
 
 
 
-&#x20;     │                │
+       ┌───────────────┐
 
-&#x20;     │                │
+       │               │
+
+     VMnet2          VMnet3
+
+   Corporate        Attack
+
+ 10.10.10.0/24    10.10.20.0/24
 
 
 
-&#x20;ELK SIEM          Kali Linux
+      │                │
 
-&#x20;Domain Controller
+      │                │
 
-&#x20;Windows 11
 
-&#x20;Ubuntu Server
+
+ ELK SIEM          Kali Linux
+
+ Domain Controller
+
+ Windows 11
+
+ Ubuntu Server
 
 ```
 
