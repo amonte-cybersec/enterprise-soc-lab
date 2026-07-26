@@ -39,8 +39,10 @@ By completing this phase, the following have been established:
 - Implementation roadmap
 - Documentation standards
 
-> [!NOTE]
-> The next phase focuses on building the virtual infrastructure, including VMware Workstation, virtual networking, pfSense, and the initial management workstation.
+> [!IMPORTANT]
+> ### Why Start With Planning?
+>
+> Every successful enterprise deployment begins with a well-defined plan. Establishing the project scope, architecture, technology stack, and implementation strategy before deployment reduces complexity, improves consistency, and minimizes troubleshooting later in the project.
 
 ---
 

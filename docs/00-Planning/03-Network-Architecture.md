@@ -37,7 +37,9 @@ This design supports secure administration, centralized logging, realistic attac
 - Expandable infrastructure for future phases
 
 > [!IMPORTANT]
-> A detailed network topology diagram, IP addressing scheme, and interface configuration will be documented during the Infrastructure phase.
+> ### Why Architecture Matters
+>
+> Designing the environment before deployment establishes clear system roles, communication paths, and security boundaries. A well-planned architecture simplifies expansion, improves troubleshooting, and reduces unnecessary configuration changes later in the project.
 
 ---
 
