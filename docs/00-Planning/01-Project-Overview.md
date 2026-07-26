@@ -2,34 +2,47 @@
 
 > Introduces the Enterprise SOC Lab and defines its overall purpose.
 
+**Phase:** Planning (00)
+
+**Document ID:** PLAN-01
+
+**Status:** Complete
+
+---
+
 ## Overview
 
-The Enterprise SOC Lab is a hands-on cybersecurity environment built to simulate a modern enterprise network. The project focuses on designing, deploying, securing, monitoring, and documenting enterprise infrastructure using industry-standard technologies.
+The Enterprise SOC Lab is a self-hosted cybersecurity environment designed to simulate a modern enterprise network. The project documents the complete lifecycle of building, securing, monitoring, and defending enterprise infrastructure using industry-standard technologies.
 
-The lab is intended to demonstrate practical experience aligned with Security Operations Center (SOC), Systems Administration, and Cybersecurity Engineering roles.
+This repository serves as both a technical knowledge base and a portfolio demonstrating practical experience with systems administration, networking, security operations, and incident response.
 
 ## Key Technologies
 
-| Technology | Role |
-| :--------- | :--- |
-| VMware Workstation Pro | Virtualization |
-| pfSense | Firewall & Routing |
-| Windows Server 2022 | Active Directory |
-| Windows 11 Enterprise | Management Workstation |
+| Technology | Purpose |
+| :--- | :--- |
+| VMware Workstation Pro | Virtualization platform |
+| pfSense CE | Firewall and routing |
+| Windows Server 2022 | Active Directory Domain Services |
+| Windows 11 Enterprise | Administrative workstation |
 | Ubuntu Server | Elastic Stack |
-| Kali Linux | Attack Platform |
+| Kali Linux | Attack simulation |
 
 ## Project Goals
 
-- Build a realistic enterprise environment
-- Deploy Active Directory
+- Design a realistic enterprise network
+- Deploy enterprise infrastructure
 - Centralize security logging
-- Detect malicious activity
-- Perform incident response
-- Produce professional documentation
+- Detect and investigate security events
+- Document every implementation phase
+- Demonstrate real-world cybersecurity skills
+
+> [!NOTE]
+> Detailed deployment procedures are documented throughout the Infrastructure, Identity, Monitoring, Detection, Attack Simulation, and Incident Response phases.
+
+---
 
 ## Navigation
 
-← [Planning Home](README.md)
-
-Next → [Lab Objectives](02-Lab-Objectives.md)
+| Previous | Phase Home | Next |
+| :--- | :---: | ---: |
+| — | [Planning](README.md) | [Lab Objectives →](02-Lab-Objectives.md) |
