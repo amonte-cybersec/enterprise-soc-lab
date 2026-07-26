@@ -51,7 +51,9 @@ The Enterprise SOC Lab combines enterprise operating systems, security platforms
 | Sysinternals Suite *(Planned)* | Windows troubleshooting |
 
 > [!NOTE]
-> Additional tools may be introduced throughout the project as new phases are implemented.
+> ### Technology Selection
+>
+> The software chosen for this lab represents technologies commonly found in enterprise environments. The objective is not to use every available security product, but to understand how infrastructure, identity, networking, and monitoring platforms integrate to support security operations.
 
 ---
 
