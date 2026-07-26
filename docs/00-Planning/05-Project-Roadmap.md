@@ -1,114 +1,44 @@
-\# Project Roadmap
+# Project Roadmap
 
+> Outlines the implementation phases of the Enterprise SOC Lab.
 
+## Overview
 
-\## Overview
+The Enterprise SOC Lab is built in incremental phases. Each phase focuses on a specific area of enterprise infrastructure, allowing the environment to grow while maintaining complete documentation for every deployment.
 
+## Project Phases
 
+| Phase | Status | Description |
+| :--- | :---: | :--- |
+| 00 – Planning | Complete | Project planning and documentation |
+| 01 – Infrastructure | Planned | VMware, networking, and pfSense deployment |
+| 02 – Identity | Planned | Active Directory, DNS, DHCP, and Group Policy |
+| 03 – Monitoring | Planned | Elastic Stack, Sysmon, and Winlogbeat |
+| 04 – Detection | Planned | Suricata IDS and detection engineering |
+| 05 – Attack Simulation | Planned | Kali Linux and attack scenarios |
+| 06 – Incident Response | Planned | Investigation, analysis, and remediation |
 
-This roadmap outlines the planned implementation phases for the Enterprise SOC Lab. Each phase builds upon the previous one, resulting in a complete enterprise environment capable of supporting security monitoring, threat detection, attack simulation, and incident response.
+## Long-Term Goals
 
+- Build a resume-ready enterprise lab
+- Demonstrate real-world cybersecurity skills
+- Practice enterprise system administration
+- Develop SIEM and threat detection experience
+- Document every deployment professionally
 
+## Success Criteria
 
-\## Project Phases
+By the end of the project, the lab will demonstrate:
 
+- Enterprise network segmentation
+- Active Directory administration
+- Centralized logging and monitoring
+- Threat detection and analysis
+- Incident response workflows
+- Professional technical documentation
 
+## Related Documentation
 
-| Phase | Status |
-
-|--------|--------|
-
-| Repository Structure | Complete |
-
-| Planning Documentation | Complete |
-
-| VMware Workstation Configuration | Complete |
-
-| Virtual Network Configuration | Complete |
-
-| pfSense Deployment | Complete |
-
-| Windows 11 Management Workstation | In Progress |
-
-| Windows Server 2022 Deployment | Planned |
-
-| Active Directory Deployment | Planned |
-
-| DNS Configuration | Planned |
-
-| DHCP Configuration | Planned |
-
-| Group Policy Configuration | Planned |
-
-| Elastic Stack Deployment | Planned |
-
-| Winlogbeat Deployment | Planned |
-
-| Sysmon Deployment | Planned |
-
-| Suricata IDS Deployment | Planned |
-
-| Attack Simulation | Planned |
-
-| Detection Engineering | Planned |
-
-| Threat Hunting | Planned |
-
-| Incident Response | Planned |
-
-| Final Documentation Review | Planned |
-
-
-
-\## Long-Term Goals
-
-
-
-The completed lab will demonstrate the ability to:
-
-
-
-\- Deploy enterprise infrastructure
-
-\- Configure identity services
-
-\- Centralize security logging
-
-\- Detect malicious activity
-
-\- Investigate security events
-
-\- Respond to incidents
-
-\- Produce professional technical documentation
-
-
-
-\## Documentation Strategy
-
-
-
-Each implementation phase will include:
-
-
-
-\- Objectives
-
-\- Environment
-
-\- Prerequisites
-
-\- Configuration Steps
-
-\- Validation
-
-\- Troubleshooting
-
-\- Lessons Learned
-
-\- Supporting Screenshots
-
-
-
-This documentation approach is intended to produce a repeatable implementation guide while accurately reflecting the build process.
-
+- **Previous:** [Software Inventory](04-Software-Inventory.md)
+- **Planning Home:** [Planning](README.md)
+- **Next:** [Infrastructure](../01-Infrastructure/README.md)
