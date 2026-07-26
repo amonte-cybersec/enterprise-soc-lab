@@ -2,15 +2,23 @@
 
 
 
+> Introduces the purpose, scope, technologies, and long-term vision of the Enterprise SOC Lab.
+
+
+
+\---
+
+
+
 \## Purpose
 
 
 
-The Enterprise SOC Lab is a production-style cybersecurity environment designed to replicate the infrastructure, security controls, and operational workflows commonly found within enterprise organizations.
+The Enterprise SOC Lab is a hands-on cybersecurity project designed to simulate a modern enterprise environment. It provides practical experience deploying infrastructure, configuring security controls, monitoring systems, and investigating security events using industry-standard technologies.
 
 
 
-Rather than serving as a basic home lab, this project is built to simulate how a Security Operations Center (SOC) deploys, manages, monitors, and defends enterprise infrastructure. Every phase of the implementation is documented to demonstrate both technical execution and professional documentation practices.
+\---
 
 
 
@@ -18,23 +26,25 @@ Rather than serving as a basic home lab, this project is built to simulate how a
 
 
 
-The primary goals of this project are to:
+The primary objectives of this lab are to:
 
 
 
-\- Design and deploy a segmented enterprise network
+\- Build a realistic enterprise network
 
-\- Build a Windows-based Active Directory environment
+\- Deploy and manage Active Directory
 
-\- Centralize security logging and monitoring
+\- Centralize log collection and monitoring
 
-\- Implement network and endpoint detection capabilities
+\- Detect malicious activity using SIEM technologies
 
-\- Simulate real-world attack scenarios
+\- Practice incident response workflows
 
-\- Perform incident investigations and response
+\- Document each deployment using professional technical documentation
 
-\- Document every deployment using professional engineering standards
+
+
+\---
 
 
 
@@ -42,37 +52,35 @@ The primary goals of this project are to:
 
 
 
-The lab will be built using enterprise technologies including:
+| Technology | Purpose |
+
+|:-----------|:--------|
+
+| VMware Workstation Pro | Virtualization platform |
+
+| pfSense | Firewall and network segmentation |
+
+| Windows Server 2022 | Active Directory infrastructure |
+
+| Windows 11 Enterprise | Domain-joined management workstation |
+
+| Ubuntu Server | Elastic Stack platform |
+
+| Kali Linux | Attack simulation platform |
+
+| Elasticsearch | Centralized log storage |
+
+| Kibana | Security dashboards and visualization |
+
+| Suricata | Network intrusion detection |
+
+| Sysmon | Windows endpoint telemetry |
+
+| Winlogbeat | Log forwarding |
 
 
 
-\- VMware Workstation Pro
-
-\- pfSense
-
-\- Windows Server 2022
-
-\- Windows 11 Enterprise
-
-\- Ubuntu Server
-
-\- Active Directory Domain Services
-
-\- Elasticsearch
-
-\- Kibana
-
-\- Winlogbeat
-
-\- Sysmon
-
-\- Suricata IDS
-
-\- Kali Linux
-
-\- PowerShell
-
-\- Git and GitHub
+\---
 
 
 
@@ -80,29 +88,91 @@ The lab will be built using enterprise technologies including:
 
 
 
-Each implementation guide within this repository follows a consistent documentation format to ensure repeatability and clarity.
+Every deployment within this project follows the same documentation structure to ensure consistency and repeatability.
 
 
 
-Every technical document will include:
+Each technical document includes:
 
 
 
-\- Objective
+\- Purpose
 
-\- Environment
+\- Overview
 
-\- Prerequisites
-
-\- Configuration Steps
+\- Configuration
 
 \- Validation
 
-\- Troubleshooting
+\- Notes
 
-\- Lessons Learned
+\- Related Documentation
 
 
 
-This approach mirrors the documentation practices commonly used by enterprise infrastructure and cybersecurity teams.
+\---
+
+
+
+\## Expected Outcomes
+
+
+
+Upon completion, this project will demonstrate experience with:
+
+
+
+\- Enterprise infrastructure deployment
+
+\- Windows administration
+
+\- Identity and access management
+
+\- Network security
+
+\- SIEM engineering
+
+\- Threat detection
+
+\- Incident response
+
+\- Technical documentation
+
+\- Git and GitHub
+
+
+
+\---
+
+
+
+\## Notes
+
+
+
+This repository is intended to evolve alongside the lab. As additional services and security controls are implemented, the documentation will be updated to accurately reflect the environment.
+
+
+
+\---
+
+
+
+\## Related Documentation
+
+
+
+\*\*Next\*\*
+
+
+
+→ \[Lab Objectives](02-Lab-Objectives.md)
+
+
+
+\*\*Planning Home\*\*
+
+
+
+↑ \[Planning](README.md)
 
