@@ -1,74 +1,38 @@
-\# Network Architecture
+# Lab Objectives
 
+> Defines the technical and professional goals of the Enterprise SOC Lab.
 
+## Overview
 
-> Provides a high-level overview of the Enterprise SOC Lab network design.
+The Enterprise SOC Lab is designed to provide hands-on experience building, securing, monitoring, and defending a realistic enterprise environment using industry-standard technologies. The project focuses on developing practical skills aligned with Security Operations Center (SOC), Systems Administration, and Cybersecurity Engineering roles.
 
+## Technical Objectives
 
+- Build a segmented enterprise network
+- Deploy Active Directory Domain Services
+- Configure DNS and DHCP
+- Implement Group Policy
+- Deploy the Elastic Stack
+- Configure Sysmon and Winlogbeat
+- Deploy Suricata IDS
+- Simulate attacks using Kali Linux
+- Investigate security events using Kibana
 
-\## Overview
+## Professional Objectives
 
-
-
-The Enterprise SOC Lab is designed to replicate a segmented enterprise network. Traffic flows through a pfSense firewall before reaching the internal environment, allowing realistic testing of network security, monitoring, and attack simulation.
-
-
-
-The architecture separates infrastructure into dedicated network segments to improve security, simplify management, and support future expansion.
-
-
-
-\## Network Components
-
-
-
-| Component | Purpose |
-
+| Skill | Focus |
 | :--- | :--- |
+| Windows Administration | Enterprise server management |
+| Active Directory | Identity and access management |
+| Network Security | Firewall and segmentation |
+| SIEM Engineering | Centralized monitoring |
+| Threat Detection | Alert analysis |
+| Incident Response | Investigation and remediation |
+| PowerShell | Task automation |
+| Documentation | Professional technical writing |
 
-| pfSense | Firewall, routing, and NAT |
+## Related Documentation
 
-| Active Directory | Identity and authentication |
-
-| Windows 11 Enterprise | Administrative workstation |
-
-| Ubuntu Server | Elastic Stack |
-
-| Kali Linux | Attack simulation |
-
-| Suricata | Network intrusion detection |
-
-
-
-\## Network Design
-
-
-
-\- WAN connected through VMware NAT
-
-\- LAN protected by pfSense
-
-\- Internal clients joined to Active Directory
-
-\- Centralized logging to Elastic Stack
-
-\- Monitoring with Suricata IDS
-
-\- Attack simulation using Kali Linux
-
-
-
-> \*\*Note:\*\* A detailed network topology diagram will be added during the Infrastructure phase.
-
-
-
-\## Related Documentation
-
-
-
-\- \*\*Previous:\*\* \[Lab Objectives](02-Lab-Objectives.md)
-
-\- \*\*Planning Home:\*\* \[Planning](README.md)
-
-\- \*\*Next:\*\* \[Software Inventory](04-Software-Inventory.md)
-
+- **Previous:** [Project Overview](01-Project-Overview.md)
+- **Planning Home:** [Planning](README.md)
+- **Next:** [Network Architecture](03-Network-Architecture.md)
