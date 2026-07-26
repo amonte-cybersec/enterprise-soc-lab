@@ -35,7 +35,9 @@ The Enterprise SOC Lab is designed to provide practical, hands-on experience wit
 - Build a portfolio demonstrating real-world engineering work
 
 > [!TIP]
-> The Enterprise SOC Lab is designed to mirror technologies and workflows commonly found in modern Security Operations Centers (SOCs).
+> ### Success Isn't Measured by Deployment
+>
+> Building the lab is only one objective. Understanding how each component functions, documenting deployment decisions, and validating configurations are equally important skills for enterprise security engineers.
 
 ---
 
