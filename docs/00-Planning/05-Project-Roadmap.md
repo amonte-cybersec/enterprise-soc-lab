@@ -1,44 +1,50 @@
-# Project Roadmap
+# Implementation Roadmap
 
-> Outlines the implementation phases of the Enterprise SOC Lab.
+> Outlines the planned implementation phases of the Enterprise SOC Lab.
+
+**Phase:** Planning (00)
+
+**Document ID:** PLAN-05
+
+**Status:** Complete
+
+---
 
 ## Overview
 
-The Enterprise SOC Lab is built in incremental phases. Each phase focuses on a specific area of enterprise infrastructure, allowing the environment to grow while maintaining complete documentation for every deployment.
+The Enterprise SOC Lab is implemented in a series of structured phases. Each phase builds upon the previous one, gradually expanding the environment while documenting every deployment, configuration, validation, and troubleshooting step.
 
-## Project Phases
+## Project Timeline
 
-| Phase | Status | Description |
+| Phase | Status | Focus |
 | :--- | :---: | :--- |
-| 00 – Planning | Complete | Project planning and documentation |
-| 01 – Infrastructure | Planned | VMware, networking, and pfSense deployment |
-| 02 – Identity | Planned | Active Directory, DNS, DHCP, and Group Policy |
-| 03 – Monitoring | Planned | Elastic Stack, Sysmon, and Winlogbeat |
-| 04 – Detection | Planned | Suricata IDS and detection engineering |
-| 05 – Attack Simulation | Planned | Kali Linux and attack scenarios |
-| 06 – Incident Response | Planned | Investigation, analysis, and remediation |
+| Planning | Complete | Project planning and documentation |
+| Infrastructure | Planned | VMware, networking, and pfSense |
+| Identity | Planned | Active Directory, DNS, DHCP, and Group Policy |
+| Monitoring | Planned | Elastic Stack, Sysmon, and Winlogbeat |
+| Detection | Planned | Suricata and detection engineering |
+| Attack Simulation | Planned | Kali Linux and attack scenarios |
+| Incident Response | Planned | Investigation and remediation workflows |
 
-## Long-Term Goals
+## Expected Outcomes
 
-- Build a resume-ready enterprise lab
-- Demonstrate real-world cybersecurity skills
-- Practice enterprise system administration
-- Develop SIEM and threat detection experience
-- Document every deployment professionally
+By the completion of this project, the lab will demonstrate:
 
-## Success Criteria
-
-By the end of the project, the lab will demonstrate:
-
-- Enterprise network segmentation
+- Enterprise virtualization
+- Secure network architecture
 - Active Directory administration
-- Centralized logging and monitoring
+- Centralized log management
 - Threat detection and analysis
-- Incident response workflows
+- Incident response procedures
 - Professional technical documentation
 
-## Related Documentation
+> [!IMPORTANT]
+> Each implementation phase includes deployment guides, validation steps, screenshots, and troubleshooting documentation based on the live lab environment.
 
-- **Previous:** [Software Inventory](04-Software-Inventory.md)
-- **Planning Home:** [Planning](README.md)
-- **Next:** [Infrastructure](../01-Infrastructure/README.md)
+---
+
+## Navigation
+
+| Previous | Phase Home | Next |
+| :--- | :---: | ---: |
+| [← Software Inventory](04-Software-Inventory.md) | [Planning](README.md) | [Infrastructure →](../01-Infrastructure/README.md) |

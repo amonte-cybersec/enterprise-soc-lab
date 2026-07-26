@@ -1,38 +1,48 @@
-# Lab Objectives
+# Network Architecture
 
-> Defines the technical and professional goals of the Enterprise SOC Lab.
+> Provides a high-level overview of the Enterprise SOC Lab network design.
+
+**Phase:** Planning (00)
+
+**Document ID:** PLAN-03
+
+**Status:** Complete
+
+---
 
 ## Overview
 
-The Enterprise SOC Lab is designed to provide hands-on experience building, securing, monitoring, and defending a realistic enterprise environment using industry-standard technologies. The project focuses on developing practical skills aligned with Security Operations Center (SOC), Systems Administration, and Cybersecurity Engineering roles.
+The Enterprise SOC Lab is designed around a segmented network architecture that reflects common enterprise environments. The lab separates management, infrastructure, monitoring, and attack simulation into dedicated virtual machines connected through a centralized firewall.
 
-## Technical Objectives
+This design supports secure administration, centralized logging, realistic attack scenarios, and scalable expansion throughout future project phases.
 
-- Build a segmented enterprise network
-- Deploy Active Directory Domain Services
-- Configure DNS and DHCP
-- Implement Group Policy
-- Deploy the Elastic Stack
-- Configure Sysmon and Winlogbeat
-- Deploy Suricata IDS
-- Simulate attacks using Kali Linux
-- Investigate security events using Kibana
+## Architecture Components
 
-## Professional Objectives
-
-| Skill | Focus |
+| Component | Role |
 | :--- | :--- |
-| Windows Administration | Enterprise server management |
-| Active Directory | Identity and access management |
-| Network Security | Firewall and segmentation |
-| SIEM Engineering | Centralized monitoring |
-| Threat Detection | Alert analysis |
-| Incident Response | Investigation and remediation |
-| PowerShell | Task automation |
-| Documentation | Professional technical writing |
+| VMware Workstation Pro | Hosts the virtual infrastructure |
+| pfSense CE | Firewall, routing, and NAT |
+| Windows Server 2022 | Active Directory Domain Services |
+| Windows 11 Enterprise | Administrative workstation |
+| Ubuntu Server | Elastic Stack (Elasticsearch & Kibana) |
+| Kali Linux | Attack simulation platform |
 
-## Related Documentation
+## Network Design Principles
 
-- **Previous:** [Project Overview](01-Project-Overview.md)
-- **Planning Home:** [Planning](README.md)
-- **Next:** [Network Architecture](03-Network-Architecture.md)
+- Segmented virtual networks
+- Centralized firewall management
+- Secure administrative access
+- Centralized log collection
+- Enterprise identity management
+- Expandable infrastructure for future phases
+
+> [!IMPORTANT]
+> A detailed network topology diagram, IP addressing scheme, and interface configuration will be documented during the Infrastructure phase.
+
+---
+
+## Navigation
+
+| Previous | Phase Home | Next |
+| :--- | :---: | ---: |
+| [← Lab Objectives](02-Lab-Objectives.md) | [Planning](README.md) | [Software Inventory →](04-Software-Inventory.md) |

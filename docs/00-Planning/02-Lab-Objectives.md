@@ -2,37 +2,45 @@
 
 > Defines the technical and professional goals of the Enterprise SOC Lab.
 
+**Phase:** Planning (00)
+
+**Document ID:** PLAN-02
+
+**Status:** Complete
+
+---
+
 ## Overview
 
-The Enterprise SOC Lab is designed to provide hands-on experience building, securing, monitoring, and defending a realistic enterprise environment using industry-standard technologies. The project focuses on developing practical skills aligned with Security Operations Center (SOC), Systems Administration, and Cybersecurity Engineering roles.
+The Enterprise SOC Lab is designed to provide practical, hands-on experience with enterprise infrastructure and cybersecurity operations. Each implementation phase builds technical knowledge while reinforcing industry best practices for system administration, monitoring, detection, and incident response.
 
 ## Technical Objectives
 
-- Build a segmented enterprise network
-- Deploy Active Directory Domain Services
-- Configure DNS and DHCP
-- Implement Group Policy
-- Deploy the Elastic Stack
-- Configure Sysmon and Winlogbeat
-- Deploy Suricata IDS
-- Simulate attacks using Kali Linux
-- Investigate security events using Kibana
+| Objective | Description |
+| :--- | :--- |
+| Enterprise Networking | Build a segmented enterprise network |
+| Active Directory | Deploy and manage centralized identity services |
+| Endpoint Management | Configure Windows enterprise endpoints |
+| Security Monitoring | Centralize logs using the Elastic Stack |
+| Threat Detection | Implement IDS and detection rules |
+| Attack Simulation | Validate detections using Kali Linux |
+| Incident Response | Investigate and remediate security events |
 
 ## Professional Objectives
 
-| Skill | Focus |
-| :--- | :--- |
-| Windows Administration | Enterprise server management |
-| Active Directory | Identity and access management |
-| Network Security | Firewall and segmentation |
-| SIEM Engineering | Centralized monitoring |
-| Threat Detection | Alert analysis |
-| Incident Response | Investigation and remediation |
-| PowerShell | Task automation |
-| Documentation | Professional technical writing |
+- Apply enterprise cybersecurity best practices
+- Strengthen systems administration skills
+- Gain hands-on SIEM experience
+- Improve technical documentation
+- Build a portfolio demonstrating real-world engineering work
+
+> [!TIP]
+> The Enterprise SOC Lab is designed to mirror technologies and workflows commonly found in modern Security Operations Centers (SOCs).
+
+---
 
 ## Navigation
 
-- **Previous:** [Project Overview](01-Project-Overview.md)
-- **Planning Home:** [Planning](README.md)
-- **Next:** [Network Architecture](03-Network-Architecture.md)
+| Previous | Phase Home | Next |
+| :--- | :---: | ---: |
+| [← Project Overview](01-Project-Overview.md) | [Planning](README.md) | [Network Architecture →](03-Network-Architecture.md) |

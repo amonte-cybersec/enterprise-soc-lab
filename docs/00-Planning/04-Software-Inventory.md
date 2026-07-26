@@ -1,38 +1,62 @@
 # Software Inventory
 
-> Lists the core software and operating systems used throughout the Enterprise SOC Lab.
+> Identifies the software platforms and technologies planned for the Enterprise SOC Lab.
+
+**Phase:** Planning (00)
+
+**Document ID:** PLAN-04
+
+**Status:** Complete
+
+---
 
 ## Overview
 
-The Enterprise SOC Lab uses a combination of virtualization, enterprise operating systems, security tools, and monitoring platforms to simulate a modern corporate environment. Each component has a defined role within the lab architecture.
+The Enterprise SOC Lab combines enterprise operating systems, security platforms, and administration tools to simulate a realistic corporate environment. The technologies selected support virtualization, identity management, monitoring, threat detection, and incident response.
 
-## Software Inventory
+## Technology Stack
 
-| Software | Version | Purpose |
-| :--- | :--- | :--- |
-| VMware Workstation Pro | Latest | Virtualization platform |
-| pfSense CE | Latest | Firewall and routing |
-| Windows Server 2022 | Standard | Active Directory Domain Services |
-| Windows 11 Enterprise | Enterprise | Administrative workstation |
-| Ubuntu Server | 24.04 LTS | Elastic Stack host |
-| Kali Linux | Latest | Attack simulation |
-| Elasticsearch | 8.x | Log storage and search |
-| Kibana | 8.x | Security dashboards |
-| Winlogbeat | 8.x | Windows log forwarding |
-| Sysmon | Latest | Advanced Windows event logging |
-| Suricata | Latest | Intrusion Detection System |
+### Virtualization
 
-## Planned Additions
+| Software | Purpose |
+| :--- | :--- |
+| VMware Workstation Pro | Hosts the virtual infrastructure |
 
-- Microsoft Sysinternals
-- PowerShell 7
-- Atomic Red Team
-- Velociraptor
-- CyberChef
-- Wireshark
+### Operating Systems
 
-## Related Documentation
+| Software | Purpose |
+| :--- | :--- |
+| Windows Server 2022 | Active Directory Domain Services |
+| Windows 11 Enterprise | Administrative workstation |
+| Ubuntu Server | Elastic Stack host |
+| Kali Linux | Attack simulation platform |
 
-- **Previous:** [Network Architecture](03-Network-Architecture.md)
-- **Planning Home:** [Planning](README.md)
-- **Next:** [Project Roadmap](05-Project-Roadmap.md)
+### Security & Monitoring
+
+| Software | Purpose |
+| :--- | :--- |
+| pfSense CE | Firewall and routing |
+| Elasticsearch | Log storage and search |
+| Kibana | Security dashboards |
+| Sysmon | Advanced Windows event logging |
+| Winlogbeat | Windows log forwarding |
+| Suricata | Network intrusion detection |
+
+### Administration Tools
+
+| Software | Purpose |
+| :--- | :--- |
+| PowerShell | Windows automation |
+| Windows Admin Center *(Planned)* | Server management |
+| Sysinternals Suite *(Planned)* | Windows troubleshooting |
+
+> [!NOTE]
+> Additional tools may be introduced throughout the project as new phases are implemented.
+
+---
+
+## Navigation
+
+| Previous | Phase Home | Next |
+| :--- | :---: | ---: |
+| [← Network Architecture](03-Network-Architecture.md) | [Planning](README.md) | [Project Roadmap →](05-Project-Roadmap.md) |
