@@ -10,7 +10,7 @@
 
 
 
-The Enterprise SOC Lab is designed to provide practical experience with enterprise infrastructure, security operations, and incident response. Each deployment phase focuses on building real-world skills commonly used by cybersecurity professionals.
+The Enterprise SOC Lab is designed to provide hands-on experience building, securing, monitoring, and defending a realistic enterprise environment using industry-standard technologies. The project focuses on developing practical skills aligned with Security Operations Center (SOC), Systems Administration, and Cybersecurity Engineering roles.
 
 
 
@@ -42,15 +42,15 @@ The Enterprise SOC Lab is designed to provide practical experience with enterpri
 
 
 
-| Skill | Purpose |
+| Skill | Focus |
 
-| :----- | :------ |
+| :--- | :--- |
 
-| Windows Administration | Manage enterprise systems |
+| Windows Administration | Enterprise server management |
 
-| Active Directory | Identity management |
+| Active Directory | Identity and access management |
 
-| Network Security | Segmentation and firewall management |
+| Network Security | Firewall and segmentation |
 
 | SIEM Engineering | Centralized monitoring |
 
@@ -60,21 +60,17 @@ The Enterprise SOC Lab is designed to provide practical experience with enterpri
 
 | PowerShell | Task automation |
 
-| Technical Documentation | Professional documentation practices |
+| Documentation | Professional technical writing |
 
 
 
-\## Navigation
+\## Related Documentation
 
 
 
-← \[Project Overview](01-Project-Overview.md)
+\- \*\*Previous:\*\* \[Project Overview](01-Project-Overview.md)
 
+\- \*\*Planning Home:\*\* \[Planning](README.md)
 
-
-↑ \[Planning Home](README.md)
-
-
-
-Next → \[Network Architecture](03-Network-Architecture.md)
+\- \*\*Next:\*\* \[Network Architecture](03-Network-Architecture.md)
 
