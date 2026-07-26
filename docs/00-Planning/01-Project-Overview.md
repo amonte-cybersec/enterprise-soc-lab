@@ -37,7 +37,9 @@ This repository serves as both a technical knowledge base and a portfolio demons
 - Demonstrate real-world cybersecurity skills
 
 > [!NOTE]
-> Detailed deployment procedures are documented throughout the Infrastructure, Identity, Monitoring, Detection, Attack Simulation, and Incident Response phases.
+> ### Engineering Insight
+>
+> Enterprise environments are ecosystems rather than collections of individual technologies. Identity services, networking, monitoring, and endpoint management must work together to provide secure and reliable operations.
 
 ---
 
