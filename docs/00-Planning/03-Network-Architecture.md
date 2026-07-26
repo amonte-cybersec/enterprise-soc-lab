@@ -2,19 +2,41 @@
 
 
 
+> Provides a high-level overview of the Enterprise SOC Lab network design.
+
+
+
 \## Overview
 
 
 
-The Enterprise SOC Lab is designed around a segmented virtual network that separates enterprise infrastructure from the attack environment. Network segmentation improves security, simplifies management, and allows attack simulations to be performed without affecting production systems.
+The Enterprise SOC Lab is designed to replicate a segmented enterprise network. Traffic flows through a pfSense firewall before reaching the internal environment, allowing realistic testing of network security, monitoring, and attack simulation.
 
 
 
-The environment is built using VMware Workstation Pro and is protected by a pfSense firewall that manages traffic between network segments.
+The architecture separates infrastructure into dedicated network segments to improve security, simplify management, and support future expansion.
 
 
 
-\---
+\## Network Components
+
+
+
+| Component | Purpose |
+
+| :--- | :--- |
+
+| pfSense | Firewall, routing, and NAT |
+
+| Active Directory | Identity and authentication |
+
+| Windows 11 Enterprise | Administrative workstation |
+
+| Ubuntu Server | Elastic Stack |
+
+| Kali Linux | Attack simulation |
+
+| Suricata | Network intrusion detection |
 
 
 
@@ -22,91 +44,31 @@ The environment is built using VMware Workstation Pro and is protected by a pfSe
 
 
 
-| Network | Purpose | Subnet |
+\- WAN connected through VMware NAT
 
-|----------|---------|--------|
+\- LAN protected by pfSense
 
-| VMnet2 | Corporate LAN | 10.10.10.0/24 |
+\- Internal clients joined to Active Directory
 
-| VMnet3 | WAN / External Network | 10.10.20.0/24 |
+\- Centralized logging to Elastic Stack
 
+\- Monitoring with Suricata IDS
 
-
-\---
-
-
-
-\## Infrastructure
+\- Attack simulation using Kali Linux
 
 
 
-| System | Role | Planned IP Address |
-
-|---------|------|-------------------|
-
-| pfSense | Firewall / Router | 10.10.10.1 |
-
-| Elastic Server | SIEM Platform | 10.10.10.10 |
-
-| Windows Server 2022 | Domain Controller | 10.10.10.20 |
-
-| Windows 11 Enterprise | Management Workstation | 10.10.10.30 |
-
-| Ubuntu Server | Linux Server | 10.10.10.40 |
-
-| Kali Linux | Attack Platform | 10.10.20.10 |
+> \*\*Note:\*\* A detailed network topology diagram will be added during the Infrastructure phase.
 
 
 
-\---
+\## Related Documentation
 
 
 
-\## Traffic Flow
+\- \*\*Previous:\*\* \[Lab Objectives](02-Lab-Objectives.md)
 
+\- \*\*Planning Home:\*\* \[Planning](README.md)
 
-
-All enterprise systems communicate through the Corporate LAN. The pfSense firewall routes and filters traffic between the internal network and the external attack network.
-
-
-
-Centralized logging is performed by the Elastic Stack, while network traffic is monitored by Suricata IDS.
-
-
-
-\---
-
-
-
-\## Network Diagram
-
-
-
-A detailed network diagram will be added after the core infrastructure has been deployed and validated.
-
-
-
-\---
-
-
-
-\## Design Principles
-
-
-
-The environment was designed using the following principles:
-
-
-
-\- Network segmentation
-
-\- Least privilege
-
-\- Centralized logging
-
-\- Layered security
-
-\- Repeatable deployment
-
-\- Professional documentation
+\- \*\*Next:\*\* \[Software Inventory](04-Software-Inventory.md)
 
