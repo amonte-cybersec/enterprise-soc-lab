@@ -2,15 +2,15 @@
 
 
 
-\## Mission
+> Defines the technical and professional goals of the Enterprise SOC Lab.
 
 
 
-The Enterprise SOC Lab is designed to provide hands-on experience building, securing, monitoring, and defending a realistic enterprise environment using industry-standard technologies and best practices.
+\## Overview
 
 
 
-The project focuses on developing practical skills that align with the responsibilities of a Security Operations Center (SOC) Analyst, Cybersecurity Engineer, or Systems Administrator.
+The Enterprise SOC Lab is designed to provide practical experience with enterprise infrastructure, security operations, and incident response. Each deployment phase focuses on building real-world skills commonly used by cybersecurity professionals.
 
 
 
@@ -18,35 +18,23 @@ The project focuses on developing practical skills that align with the responsib
 
 
 
-The primary technical objectives include:
-
-
-
 \- Build a segmented enterprise network
-
-\- Deploy and configure pfSense as the perimeter firewall
-
-\- Install and configure Windows Server 2022
 
 \- Deploy Active Directory Domain Services
 
-\- Configure DNS and DHCP services
+\- Configure DNS and DHCP
 
-\- Join Windows clients to the domain
+\- Implement Group Policy
 
-\- Implement Group Policy for centralized management
+\- Deploy the Elastic Stack
 
-\- Deploy the Elastic Stack for centralized logging
+\- Configure Sysmon and Winlogbeat
 
-\- Configure Sysmon and Winlogbeat for endpoint telemetry
-
-\- Deploy Suricata for network intrusion detection
+\- Deploy Suricata IDS
 
 \- Simulate attacks using Kali Linux
 
-\- Investigate alerts using SIEM data
-
-\- Document all deployments and configurations
+\- Investigate security events using Kibana
 
 
 
@@ -54,49 +42,39 @@ The primary technical objectives include:
 
 
 
-This project is also intended to strengthen the following skills:
+| Skill | Purpose |
+
+| :----- | :------ |
+
+| Windows Administration | Manage enterprise systems |
+
+| Active Directory | Identity management |
+
+| Network Security | Segmentation and firewall management |
+
+| SIEM Engineering | Centralized monitoring |
+
+| Threat Detection | Alert analysis |
+
+| Incident Response | Investigation and remediation |
+
+| PowerShell | Task automation |
+
+| Technical Documentation | Professional documentation practices |
 
 
 
-\- Enterprise infrastructure design
-
-\- Windows administration
-
-\- Identity and access management
-
-\- Network security
-
-\- SIEM engineering
-
-\- Detection engineering
-
-\- Threat hunting
-
-\- Incident response
-
-\- PowerShell automation
-
-\- Technical documentation
-
-\- Version control using Git and GitHub
+\## Navigation
 
 
 
-\## Success Criteria
+← \[Project Overview](01-Project-Overview.md)
 
 
 
-The project will be considered successful when:
+↑ \[Planning Home](README.md)
 
 
 
-\- All planned infrastructure components are deployed and operational.
-
-\- Security logs are successfully collected and searchable.
-
-\- Detection rules generate meaningful alerts.
-
-\- Simulated attacks are identified and investigated.
-
-\- Every deployment is documented with validation steps and supporting screenshots.
+Next → \[Network Architecture](03-Network-Architecture.md)
 
