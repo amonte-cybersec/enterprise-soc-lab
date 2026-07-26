@@ -2,95 +2,75 @@
 
 
 
+> Lists the core software and operating systems used throughout the Enterprise SOC Lab.
+
+
+
 \## Overview
 
 
 
-This document identifies the software, operating systems, and tools used throughout the Enterprise SOC Lab. As the project evolves, this inventory will be updated to reflect deployed components and version changes.
+The Enterprise SOC Lab uses a combination of virtualization, enterprise operating systems, security tools, and monitoring platforms to simulate a modern corporate environment. Each component has a defined role within the lab architecture.
 
 
 
-\## Infrastructure
+\## Software Inventory
 
 
 
-| Software | Purpose |
+| Software | Version | Purpose |
 
-|----------|---------|
+| :--- | :--- | :--- |
 
-| VMware Workstation Pro | Virtualization Platform |
+| VMware Workstation Pro | Latest | Virtualization platform |
 
-| pfSense Community Edition | Firewall and Router |
+| pfSense CE | Latest | Firewall and routing |
 
+| Windows Server 2022 | Standard | Active Directory Domain Services |
 
+| Windows 11 Enterprise | Enterprise | Administrative workstation |
 
-\## Operating Systems
+| Ubuntu Server | 24.04 LTS | Elastic Stack host |
 
+| Kali Linux | Latest | Attack simulation |
 
+| Elasticsearch | 8.x | Log storage and search |
 
-| Operating System | Purpose |
+| Kibana | 8.x | Security dashboards |
 
-|------------------|---------|
+| Winlogbeat | 8.x | Windows log forwarding |
 
-| Windows Server 2022 | Domain Controller |
+| Sysmon | Latest | Advanced Windows event logging |
 
-| Windows 11 Enterprise | Management Workstation |
-
-| Ubuntu Server | SIEM Server |
-
-| Kali Linux | Attack Platform |
-
-
-
-\## Identity Services
+| Suricata | Latest | Intrusion Detection System |
 
 
 
-| Service | Purpose |
-
-|---------|---------|
-
-| Active Directory Domain Services | Identity Management |
-
-| DNS | Name Resolution |
-
-| DHCP | IP Address Management |
-
-| Group Policy | Centralized Configuration |
+\## Planned Additions
 
 
 
-\## Security Monitoring
+\- Microsoft Sysinternals
+
+\- PowerShell 7
+
+\- Atomic Red Team
+
+\- Velociraptor
+
+\- CyberChef
+
+\- Wireshark
 
 
 
-| Software | Purpose |
-
-|----------|---------|
-
-| Elasticsearch | Log Storage |
-
-| Kibana | Data Visualization |
-
-| Winlogbeat | Windows Log Collection |
-
-| Sysmon | Endpoint Telemetry |
-
-| Suricata IDS | Network Intrusion Detection |
+\## Related Documentation
 
 
 
-\## Administration
+\- \*\*Previous:\*\* \[Network Architecture](03-Network-Architecture.md)
 
+\- \*\*Planning Home:\*\* \[Planning](README.md)
 
-
-| Software | Purpose |
-
-|----------|---------|
-
-| PowerShell | Automation |
-
-| Git | Version Control |
-
-| GitHub | Source Control and Documentation |
+\- \*\*Next:\*\* \[Project Roadmap](05-Project-Roadmap.md)
 
