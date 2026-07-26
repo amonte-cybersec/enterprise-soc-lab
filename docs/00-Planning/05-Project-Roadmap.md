@@ -39,7 +39,9 @@ By the completion of this project, the lab will demonstrate:
 - Professional technical documentation
 
 > [!IMPORTANT]
-> Each implementation phase includes deployment guides, validation steps, screenshots, and troubleshooting documentation based on the live lab environment.
+> ### Build One Layer at a Time
+>
+> Enterprise environments are implemented incrementally. Completing and validating each phase before introducing additional systems creates a stable foundation and makes troubleshooting significantly easier throughout the project.
 
 ---
 
