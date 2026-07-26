@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
 
 &#x20; <img src="assets/banners/enterprise-soc-lab-overview.png" alt="Enterprise SOC Lab" width="100%">
@@ -19,9 +20,15 @@ Production-style Security Operations Center environment built to simulate enterp
 
 
 \## Overview
+=======
+# Enterprise SOC Lab
+>>>>>>> 002a92967cb5f233f8f16d7cd7b12f9e82cda5ba
 
+<img width="1536" height="1024" alt="enterprise-soc-lab-overview" src="https://github.com/user-attachments/assets/37e3214f-03dc-4128-94ad-b92d2370eb02" />
 
+## Overview
 
+<<<<<<< HEAD
 This project documents the design and implementation of a realistic enterprise cybersecurity environment built with VMware Workstation Pro. The lab is designed to provide hands-on experience deploying, securing, monitoring, and defending a Windows-based Active Directory environment using industry-standard technologies.
 
 
@@ -232,3 +239,6 @@ This repository is actively being developed. Documentation and configurations wi
 
 This project is maintained for educational and professional portfolio purposes.
 
+=======
+This project documents the design, deployment, and operation of a simulated enterprise Security Operations Center (SOC) environment built using VMware Workstation Pro.
+>>>>>>> 002a92967cb5f233f8f16d7cd7b12f9e82cda5ba
