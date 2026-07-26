@@ -31,7 +31,7 @@ The Enterprise SOC Lab is designed to provide hands-on experience building, secu
 | PowerShell | Task automation |
 | Documentation | Professional technical writing |
 
-## Related Documentation
+## Navigation
 
 - **Previous:** [Project Overview](01-Project-Overview.md)
 - **Planning Home:** [Planning](README.md)
