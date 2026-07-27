@@ -101,4 +101,4 @@ The following screenshots document the virtual networking configuration.
 
 | Previous | Phase Home | Next |
 | :--- | :--- | :--- |
-| [INF-02 – VMware Workstation](INF-02-VMware-Workstation.md) | [Infrastructure](README.md) | [pfSense Deployment](04-pfSense-Deployment.md) |
+| [INF-02 →](INF-02-VMware-Workstation.md) | [Infrastructure](README.md) | [INF-04 →](04-pfSense-Deployment.md) |
