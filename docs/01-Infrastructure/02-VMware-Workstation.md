@@ -92,4 +92,4 @@ The following screenshots document the VMware environment used throughout the En
 
 | Previous | Phase Home | Next |
 | :--- | :--- | :--- |
-| [INF-01 – Host System](INF-01-Host-System.md) | [Infrastructure](README.md) | [Virtual Networking](03-Virtual-Networking.md) |
+| [INF-01 – Host System](INF-01-Host-System.md) | [Infrastructure](README.md) | [Virtual Networks](03-Virtual-Networks.md) |
