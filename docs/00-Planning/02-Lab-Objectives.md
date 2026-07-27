@@ -45,4 +45,4 @@ The Enterprise SOC Lab is designed to provide practical, hands-on experience wit
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| [← Project Overview](01-Project-Overview.md) | [Planning](README.md) | [PLAN-03→](03-Network-Architecture.md) |
+| [← Project Overview](01-Project-Overview.md) | [Planning](README.md) | [PLAN-03 →](03-Network-Architecture.md) |
