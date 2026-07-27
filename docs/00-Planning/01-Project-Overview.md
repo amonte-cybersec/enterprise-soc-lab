@@ -47,4 +47,4 @@ This repository serves as both a technical knowledge base and a portfolio demons
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| — | [Planning](README.md) | [PLAN-02→](02-Lab-Objectives.md) |
+| — | [Planning](README.md) | [PLAN-02 →](02-Lab-Objectives.md) |
