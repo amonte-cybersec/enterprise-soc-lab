@@ -1,89 +1,87 @@
-# VMware Workstation
+# INF-02 - VMware Workstation
 
-> Documents the installation and configuration of VMware Workstation Pro used to host the Enterprise SOC Lab.
+> Documents the installation and configuration of VMware Workstation Pro, which provides the virtualization platform for the Enterprise SOC Lab.
 
-**Phase:** Infrastructure (01)
-
-**Document ID:** INF-02
-
-**Status:** Complete
-
----
-
-## Overview
-
-VMware Workstation Pro serves as the primary virtualization platform for the Enterprise SOC Lab. It provides the ability to create, manage, and isolate multiple virtual machines while supporting custom virtual networking required for enterprise infrastructure simulations.
-
-The platform enables the deployment of Windows, Linux, and network appliance virtual machines that form the foundation of the lab environment.
-
----
-
-## Software Information
-
-| Component | Configuration |
+| Property | Value |
 | :--- | :--- |
-| Software | VMware Workstation Pro |
-| Purpose | Desktop Virtualization Platform |
+| Phase | 01 - Infrastructure |
+| Document ID | INF-02 |
+| Status | Complete |
+
+---
+
+# Overview
+
+VMware Workstation Pro was selected as the hypervisor for the Enterprise SOC Lab due to its enterprise-grade virtualization capabilities, custom networking options, and support for multiple operating systems.
+
+All virtual machines used throughout this project are deployed and managed through VMware Workstation Pro.
+
+> [!NOTE]
+> VMware Workstation serves as the virtualization layer between the physical host system and all virtual infrastructure deployed within the lab.
+
+---
+
+# Software Information
+
+| Component | Details |
+| :--- | :--- |
+| Hypervisor | VMware Workstation Pro |
 | Host Operating System | Windows 11 Home |
-| Hypervisor Type | Type-2 Hypervisor |
-| Deployment Status | Installed and Operational |
+| Installation Status | Installed |
+| Virtualization | Intel VT-x Enabled |
 
 ---
 
-## Why VMware Workstation?
+# Purpose
 
-VMware Workstation Pro was selected because it provides enterprise-grade virtualization features, including custom virtual networking, virtual machine snapshots, hardware customization, and support for multiple operating systems.
+VMware Workstation provides the virtualization platform required to:
 
-These capabilities allow the lab to closely simulate an enterprise infrastructure while remaining portable and easy to manage.
-
----
-
-## Configuration Summary
-
-| Setting | Value |
-| :--- | :--- |
-| Virtualization Support | Enabled |
-| Custom VM Networks | Configured |
-| Snapshot Support | Enabled |
-| Multiple Concurrent VMs | Supported |
+- Create isolated enterprise virtual machines.
+- Support multiple operating systems simultaneously.
+- Configure custom virtual networking.
+- Simulate a production enterprise environment.
+- Snapshot and restore lab environments when necessary.
 
 ---
 
-## Screenshots
+# Configuration Summary
+
+The VMware environment has been prepared with:
+
+- VMware Workstation Pro installed.
+- Virtualization support verified.
+- Enterprise SOC Lab workspace created.
+- Custom virtual networking configured for future infrastructure deployment.
+
+---
+
+# Validation
+
+The installation was validated by confirming:
+
+- VMware Workstation launches successfully.
+- Virtual machines can be created.
+- Virtual Network Editor is accessible.
+- Custom VMnet networks are available.
+
+---
+
+# Screenshots
 
 | Screenshot | Description |
 | :--- | :--- |
-| ![VMware Home](../../images/01-Infrastructure/vmware/vmware-home.png) | VMware Workstation Pro home interface after installation. |
+| ![VMware Home](../../images/01-Infrastructure/vmware/vmware-home.png) | VMware Workstation Pro showing the Enterprise SOC Lab virtual machine inventory. |
 | ![VMware Version](../../images/01-Infrastructure/vmware/vmware-version.png) | Installed VMware Workstation Pro version information. |
-| ![Virtual Network Editor](../../images/01-Infrastructure/vmware/virtual-network-editor.png) | VMware Virtual Network Editor showing configured virtual networks. |
-
-> [!TIP]
-> ### Best Practice
->
-> Configure virtual networking before deploying virtual machines. Establishing VMnet assignments early prevents unnecessary reconfiguration and helps maintain a consistent network design throughout the project.
+| ![Virtual Network Editor](../../images/01-Infrastructure/vmware/virtual-network-editor.png) | Virtual Network Editor displaying the custom VMnet2 and VMnet3 configurations. |
 
 ---
 
-## Validation
+# Lessons Learned
 
-The VMware installation was validated by confirming:
-
-- VMware Workstation Pro launches successfully.
-- Virtual machines can be created and powered on.
-- Custom virtual networks are available.
-- Hardware virtualization is functioning correctly.
-- Snapshot functionality is operational.
+Deploying VMware Workstation before building the lab establishes a consistent virtualization platform and simplifies future infrastructure deployment. Verifying installation and networking early reduces troubleshooting during later phases.
 
 ---
-
-## Lessons Learned
-
-A properly configured virtualization platform simplifies every deployment that follows. Spending time validating VMware settings before creating virtual machines reduces deployment issues and provides a stable foundation for the entire lab.
-
----
-
-## Navigation
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| [← Host System](01-Host-System.md) | **Infrastructure** | [Virtual Networks →](03-Virtual-Networks.md) |
+| INF-01 - Host System | 01-Infrastructure | INF-03 - Virtual Networks |

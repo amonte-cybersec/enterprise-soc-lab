@@ -1,80 +1,74 @@
-# Host System
+# INF-01 - Host System
 
-> Documents the physical workstation that hosts the Enterprise SOC Lab virtual environment.
+> Documents the physical workstation that hosts the Enterprise SOC Lab virtualization environment.
 
-**Phase:** Infrastructure (01)
-
-**Document ID:** INF-01
-
-**Status:** Complete
-
----
-
-## Overview
-
-The Enterprise SOC Lab is hosted on a dedicated Windows workstation capable of supporting multiple virtual machines simultaneously. The host system provides the processing power, memory, and storage required to run enterprise infrastructure components including Active Directory, pfSense, ELK, Windows Server, Windows 11, Ubuntu Server, and Kali Linux.
-
-Selecting capable hardware ensures the lab remains responsive while accurately simulating an enterprise environment.
-
----
-
-## Host Specifications
-
-| Component | Configuration |
+| Property | Value |
 | :--- | :--- |
-| Host System | Alienware Aurora R13 |
+| Phase | 01 - Infrastructure |
+| Document ID | INF-01 |
+| Status | Complete |
+
+---
+
+# Overview
+
+The Enterprise SOC Lab is hosted on a dedicated Windows workstation running VMware Workstation Pro. This system provides the compute resources required to support multiple virtual machines used throughout the lab, including pfSense, Windows Server, Windows 11, Kali Linux, and future monitoring infrastructure.
+
+The host system serves as the foundation for every component deployed within the lab.
+
+> [!IMPORTANT]
+> A stable and properly configured host system is essential for maintaining consistent virtual machine performance and ensuring reliable lab operation.
+
+---
+
+# Host Information
+
+| Component | Details |
+| :--- | :--- |
+| Platform | Alienware Aurora R13 |
+| Operating System | Windows 11 Home |
 | Processor | Intel Core i9-12900F |
-| Operating System | Windows 11 Home (64-bit) |
-| Hypervisor | VMware Workstation Pro |
-| Virtualization | Intel VT-x Enabled |
-| Primary Purpose | Enterprise SOC Lab Host |
+| Virtualization Platform | VMware Workstation Pro |
 
 ---
 
-## Hardware Considerations
+# Purpose
 
-The host workstation was selected to provide sufficient computing resources for running multiple virtual machines concurrently. Enterprise security environments frequently require several systems to operate simultaneously, making processor performance, available memory, and storage capacity critical factors when designing the lab.
+The host system provides the physical resources required to:
 
-The virtualization platform allows isolated systems to communicate across dedicated virtual networks while remaining independent of the physical host operating system.
+- Run multiple virtual machines simultaneously.
+- Support enterprise networking through VMware virtual switches.
+- Host the Enterprise SOC Lab infrastructure.
+- Provide a repeatable environment for security testing and documentation.
 
 ---
 
-## Environment
+# Validation
 
-| Component | Value |
+The host system was verified prior to deployment by confirming:
+
+- Windows operating system installed and fully functional.
+- VMware Workstation Pro installed successfully.
+- Hardware virtualization enabled.
+- Sufficient processor and memory resources available for virtualization.
+
+---
+
+# Screenshots
+
+| Screenshot | Description |
 | :--- | :--- |
-| Hypervisor | VMware Workstation Pro |
-| Host Operating System | Windows 11 Home |
-| Virtualization Platform | Type-2 Hypervisor |
-| Lab Purpose | Enterprise Security Operations Center |
+| ![System Information](../../images/01-Infrastructure/host-system/system-information.png) | Windows System Information displaying the hardware and operating system used to host the Enterprise SOC Lab. |
+| ![Task Manager Performance](../../images/01-Infrastructure/host-system/task-manager-performance.png) | Task Manager Performance tab showing CPU and memory resources available for virtualization. |
 
 ---
 
-## Validation
+# Lessons Learned
 
-The host environment was validated by confirming:
-
-- VMware Workstation Pro launches successfully.
-- Hardware virtualization is enabled.
-- Virtual machines power on without hardware errors.
-- Multiple virtual machines can operate simultaneously.
-- Host operating system remains stable during lab operation.
-
-> [!NOTE]
-> ### Engineering Insight
->
-> Enterprise virtualization begins with reliable hardware. A stable host platform reduces resource bottlenecks, improves virtual machine performance, and provides a dependable foundation for every service deployed throughout the lab.
+The host workstation forms the foundation of the Enterprise SOC Lab. Confirming hardware capabilities and virtualization support before deploying infrastructure helps prevent performance issues later in the project.
 
 ---
-
-## Lessons Learned
-
-Enterprise environments rely on a stable infrastructure layer before additional services are introduced. Verifying host hardware, virtualization support, and hypervisor functionality early helps eliminate issues that could impact later deployment phases.
-
----
-
-## Navigation
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| [← Infrastructure](README.md) | **Infrastructure** | [VMware Workstation →](02-VMware-Workstation.md) |
+| 00-Planning | 01-Infrastructure | INF-02 - VMware Workstation |
