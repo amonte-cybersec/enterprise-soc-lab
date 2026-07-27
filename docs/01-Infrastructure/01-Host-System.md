@@ -40,8 +40,10 @@ The host workstation is responsible for:
 
 ---
 
-> [!TIP]
-> A capable host system is critical for virtualization. CPU resources, memory, and hardware virtualization directly impact virtual machine performance and overall lab stability.
+> [!IMPORTANT]
+> ### Start with a Stable Foundation
+>
+> A reliable virtualization environment begins with the host system. Verifying hardware virtualization, available resources, and system stability before deploying virtual machines helps prevent performance bottlenecks and reduces troubleshooting later in the project.
 
 ---
 
