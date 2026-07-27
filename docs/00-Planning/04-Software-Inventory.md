@@ -1,4 +1,4 @@
-# Software Inventory
+# PLAN-04 – Software Inventory
 
 > Identifies the software platforms and technologies planned for the Enterprise SOC Lab.
 
