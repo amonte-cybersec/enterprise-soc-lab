@@ -54,7 +54,9 @@ Future systems connected to the LAN will include:
 ---
 
 > [!IMPORTANT]
-> Separating WAN and LAN traffic is a fundamental security practice. This design allows pfSense to control traffic between trusted internal systems and external networks.
+> ### Build One Layer at a Time
+>
+> Enterprise environments are implemented incrementally. Completing and validating each phase before introducing additional systems creates a stable foundation and makes troubleshooting significantly easier throughout the project.
 
 ---
 
