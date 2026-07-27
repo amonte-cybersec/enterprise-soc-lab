@@ -1,4 +1,4 @@
-# Planning
+# 00-Planning
 
 > Defines the scope, architecture, technology stack, and implementation roadmap for the Enterprise SOC Lab.
 
