@@ -1,4 +1,4 @@
-# Infrastructure
+# 01-Infrastructure
 
 > Documents the deployment of the virtual infrastructure that powers the Enterprise SOC Lab.
 
