@@ -1,4 +1,4 @@
-# Project Overview
+# PLAN 01 - Project Overview
 
 > Introduces the Enterprise SOC Lab and defines its overall purpose.
 
