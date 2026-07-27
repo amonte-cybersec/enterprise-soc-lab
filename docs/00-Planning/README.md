@@ -50,4 +50,4 @@ By completing this phase, the following have been established:
 
 | Previous | Repository Home | Next Phase |
 | :--- | :---: | ---: |
-| [← Enterprise SOC Lab](../../README.md) | **Planning** | [Infrastructure →](../01-Infrastructure/README.md) |
+| [← Enterprise SOC Lab](../../README.md) | **Planning** | [01-Infrastructure →](../01-Infrastructure/README.md) |
