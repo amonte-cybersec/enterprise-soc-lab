@@ -61,4 +61,4 @@ The Enterprise SOC Lab combines enterprise operating systems, security platforms
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| [← Network Architecture](03-Network-Architecture.md) | [Planning](README.md) | [PLAN-05 →](05-Project-Roadmap.md) |
+| [← PLAN-03](03-Network-Architecture.md) | [Planning](README.md) | [PLAN-05 →](05-Project-Roadmap.md) |
