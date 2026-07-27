@@ -84,7 +84,7 @@ The following screenshot documents the current state of the pfSense deployment.
 
 | Screenshot | Description |
 | :--- | :--- |
-| ![pfSense Dashboard](../../images/01-Infrastructure/pfsense/dashboard.png) | pfSense Dashboard after successful installation and initial login to the WebConfigurator. |
+| ![pfSense Dashboard](../../images/01-Infrastructure/pfsense/pfsense-cli-menu.png) | pfSense Dashboard after successful installation and initial login to the WebConfigurator. |
 
 ---
 
