@@ -1,83 +1,104 @@
-# INF-03 - Virtual Networks
+# INF-03 – Virtual Networking
 
-> Documents the virtual networking architecture used to provide network segmentation for the Enterprise SOC Lab.
+> Documents the virtual network architecture used to isolate systems within the Enterprise SOC Lab.
 
-| Property | Value |
-| :--- | :--- |
-| Phase | 01 - Infrastructure |
-| Document ID | INF-03 |
-| Status | Complete |
+| Phase | Document ID | Status |
+| :--- | :--- | :--- |
+| Infrastructure | INF-03 | Complete |
 
 ---
 
 # Overview
 
-The Enterprise SOC Lab uses VMware Workstation's Virtual Network Editor to create isolated network segments. These networks simulate a basic enterprise environment by separating internal systems from external connectivity.
+The Enterprise SOC Lab uses VMware Workstation Pro custom virtual networks to simulate an enterprise environment. Network segmentation allows infrastructure, endpoints, and future attack systems to communicate in a controlled and isolated environment.
 
-The lab currently consists of two custom virtual networks that will be used throughout the project.
-
-> [!IMPORTANT]
-> Network segmentation is a fundamental security practice. Separating internal and external traffic creates a more realistic enterprise environment and provides a foundation for future firewall and monitoring configurations.
+The virtual network design provides the foundation for deploying pfSense, Active Directory, Windows clients, Linux servers, and security monitoring tools.
 
 ---
 
-# Virtual Network Configuration
+# Virtual Networks
 
 | Network | Purpose |
 | :--- | :--- |
-| VMnet2 | Internal Corporate LAN |
-| VMnet3 | External / WAN Network |
+| VMnet2 | Internal corporate LAN |
+| VMnet3 | WAN / External network used by pfSense |
 
 ---
 
-# Purpose
+# Network Design
 
-The virtual networking environment provides the ability to:
+Current network layout:
 
-- Isolate enterprise systems from the host network.
-- Simulate internal and external network segments.
-- Support pfSense as the network gateway.
-- Create a realistic environment for future monitoring and attack simulations.
+```text
+                 Internet
+                     │
+                 VMnet3 (WAN)
+                     │
+               +-------------+
+               |   pfSense   |
+               +-------------+
+                     │
+                 VMnet2 (LAN)
+                     │
+      Future Enterprise Infrastructure
+```
+
+Future systems connected to the LAN will include:
+
+- Windows Server
+- Windows 11 Management Workstation
+- Ubuntu Server
+- ELK SIEM
+- Additional enterprise infrastructure
+
+---
+
+> [!IMPORTANT]
+> Separating WAN and LAN traffic is a fundamental security practice. This design allows pfSense to control traffic between trusted internal systems and external networks.
 
 ---
 
 # Configuration Summary
 
-The virtual networking environment has been prepared with:
+The following custom VMware virtual networks have been created:
 
-- Custom VMnet2 network created.
-- Custom VMnet3 network created.
-- Networks available for virtual machine assignment.
-- Network segmentation established for future infrastructure deployment.
+- VMnet2 configured for the internal enterprise network
+- VMnet3 configured for the external/WAN network
+- Networks isolated from each other
+- Ready for future virtual machine deployment
 
 ---
 
 # Validation
 
-The virtual networking configuration was validated by confirming:
+The following items were verified:
 
-- VMnet2 is available within VMware Workstation.
-- VMnet3 is available within VMware Workstation.
-- Both networks can be assigned to virtual machines.
-- Virtual Network Editor reflects the intended lab topology.
+- VMnet2 created successfully
+- VMnet3 created successfully
+- Both virtual networks visible in VMware Virtual Network Editor
+- Networks available for virtual machine assignment
 
 ---
 
 # Screenshots
 
+The following screenshots document the virtual networking configuration.
+
 | Screenshot | Description |
 | :--- | :--- |
-| ![VMnet2 Configuration](../../images/01-Infrastructure/networking/vmnet2-config.png) | VMware Virtual Network Editor showing the configuration of VMnet2 for the internal corporate network. |
-| ![VMnet3 Configuration](../../images/01-Infrastructure/networking/vmnet3-config.png) | VMware Virtual Network Editor showing the configuration of VMnet3 for the external/WAN network. |
+| ![VMnet2 Configuration](../../images/01-Infrastructure/networking/vmnet2-config.png) | VMware Virtual Network Editor showing the VMnet2 internal LAN configuration. |
+| ![VMnet3 Configuration](../../images/01-Infrastructure/networking/vmnet3-config.png) | VMware Virtual Network Editor showing the VMnet3 WAN configuration. |
 
 ---
 
 # Lessons Learned
 
-Creating dedicated virtual networks before deploying servers and workstations establishes a structured foundation for the lab. Proper network segmentation simplifies future firewall configuration, Active Directory deployment, and security monitoring.
+- Design the virtual network before deploying infrastructure.
+- Keep WAN and LAN separated to simulate a real enterprise environment.
+- A consistent networking design simplifies future deployment and troubleshooting.
 
 ---
 
 | Previous | Phase Home | Next |
-| :--- | :---: | ---: |
-| INF-02 - VMware Workstation | 01-Infrastructure | INF-04 - pfSense Deployment |
+| :--- | :--- | :--- |
+| [INF-02 – VMware Workstation](INF-02-VMware-Workstation.md) | [Infrastructure](README.md) | [INF-04 – pfSense Deployment](INF-04-pfSense-Deployment.md) |
