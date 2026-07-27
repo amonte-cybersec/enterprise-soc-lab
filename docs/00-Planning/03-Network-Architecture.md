@@ -1,4 +1,4 @@
-# Network Architecture
+# PLAN-03 – Network Architecture
 
 > Provides a high-level overview of the Enterprise SOC Lab network design.
 
