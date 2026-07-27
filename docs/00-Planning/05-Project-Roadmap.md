@@ -49,4 +49,4 @@ By the completion of this project, the lab will demonstrate:
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| [← PLAN-04](04-Software-Inventory.md) | [Planning](README.md) | [01-Infrastructure →](../01-Infrastructure/README.md) |
+| [← PLAN-04](04-Software-Inventory.md) | [00-Planning](README.md) | [01-Infrastructure →](../01-Infrastructure/README.md) |
