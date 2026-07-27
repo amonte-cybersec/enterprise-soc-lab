@@ -1,4 +1,4 @@
-# Lab Objectives
+# PLAN-02 – Lab Objectives
 
 > Defines the technical and professional goals of the Enterprise SOC Lab.
 
