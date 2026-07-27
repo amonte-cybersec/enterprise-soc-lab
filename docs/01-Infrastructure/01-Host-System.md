@@ -77,4 +77,4 @@ The following screenshots document the workstation used to build the Enterprise 
 
 | Previous | Phase Home | Next |
 | :--- | :--- | :--- |
-| [Infrastructure README](README.md) | [Infrastructure](README.md) | [INF-02 – VMware Workstation](02-VMware-Workstation.md) |
+| [Infrastructure README](README.md) | [Infrastructure](README.md) | [02 – VMware Workstation](02-VMware-Workstation.md) |
