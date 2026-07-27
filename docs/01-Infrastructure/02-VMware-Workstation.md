@@ -39,8 +39,10 @@ VMware Workstation Pro provides the following capabilities:
 
 ---
 
-> [!NOTE]
-> VMware Workstation Pro was selected because it supports multiple isolated virtual networks, flexible virtual hardware configuration, and enterprise-style lab deployments on a single physical workstation.
+> [!TIP]
+> ### Standardize Before You Scale
+>
+> Consistent virtual machine names, organized folders, and validated networking make the environment easier to manage as additional infrastructure is deployed. Small organizational decisions early in the project save significant time later.
 
 ---
 
