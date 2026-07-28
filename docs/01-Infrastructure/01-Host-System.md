@@ -40,8 +40,10 @@ The host workstation is responsible for:
 
 ---
 
-> [!TIP]
-> A capable host system is critical for virtualization. CPU resources, memory, and hardware virtualization directly impact virtual machine performance and overall lab stability.
+> [!IMPORTANT]
+> ### Start with a Stable Foundation
+>
+> A reliable virtualization environment begins with the host system. Verifying hardware virtualization, available resources, and system stability before deploying virtual machines helps prevent performance bottlenecks and reduces troubleshooting later in the project.
 
 ---
 
@@ -77,4 +79,4 @@ The following screenshots document the workstation used to build the Enterprise 
 
 | Previous | Phase Home | Next |
 | :--- | :--- | :--- |
-| [Infrastructure README](README.md) | [Infrastructure](README.md) | [INF-02 – VMware Workstation](INF-02-VMware-Workstation.md) |
+|—| [01-Infrastructure](README.md) | [INF-02 → ](02-VMware-Workstation.md) |

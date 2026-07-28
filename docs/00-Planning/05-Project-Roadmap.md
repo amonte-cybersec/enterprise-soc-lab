@@ -1,4 +1,4 @@
-# Implementation Roadmap
+# PLAN-05 – Implementation Roadmap
 
 > Outlines the planned implementation phases of the Enterprise SOC Lab.
 
@@ -49,4 +49,4 @@ By the completion of this project, the lab will demonstrate:
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| [← Software Inventory](04-Software-Inventory.md) | [Planning](README.md) | [Infrastructure →](../01-Infrastructure/README.md) |
+| [← PLAN-04](04-Software-Inventory.md) | [00-Planning](README.md) | [01-Infrastructure →](../01-Infrastructure/README.md) |

@@ -31,8 +31,10 @@ These services will be configured during later phases of the project.
 
 ---
 
-> [!NOTE]
-> The goal of this phase was to successfully deploy pfSense and verify access to the web management interface before performing additional configuration.
+> [!CAUTION]
+> ### Verify Connectivity Before Configuration
+>
+> Confirm that the firewall is installed correctly and the management interface is accessible before configuring advanced features. Establishing a working baseline simplifies troubleshooting and prevents configuration errors from compounding.
 
 ---
 
@@ -84,7 +86,7 @@ The following screenshot documents the current state of the pfSense deployment.
 
 | Screenshot | Description |
 | :--- | :--- |
-| ![pfSense Dashboard](../../images/01-Infrastructure/pfsense/dashboard.png) | pfSense Dashboard after successful installation and initial login to the WebConfigurator. |
+| ![pfSense Dashboard](../../images/01-Infrastructure/pfsense/pfsense-cli-menu.png) | pfSense Dashboard after successful installation and initial login to the WebConfigurator. |
 
 ---
 

@@ -1,4 +1,4 @@
-# Project Overview
+# PLAN-01 – Project Overview
 
 > Introduces the Enterprise SOC Lab and defines its overall purpose.
 
@@ -47,4 +47,4 @@ This repository serves as both a technical knowledge base and a portfolio demons
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| — | [Planning](README.md) | [Lab Objectives →](02-Lab-Objectives.md) |
+| — | [Planning](README.md) | [PLAN-02 →](02-Lab-Objectives.md) |

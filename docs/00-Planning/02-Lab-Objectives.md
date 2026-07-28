@@ -1,4 +1,4 @@
-# Lab Objectives
+# PLAN-02 – Lab Objectives
 
 > Defines the technical and professional goals of the Enterprise SOC Lab.
 
@@ -45,4 +45,4 @@ The Enterprise SOC Lab is designed to provide practical, hands-on experience wit
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| [← Project Overview](01-Project-Overview.md) | [Planning](README.md) | [Network Architecture →](03-Network-Architecture.md) |
+| [← PLAN-01](01-Project-Overview.md) | [Planning](README.md) | [PLAN-03 →](03-Network-Architecture.md) |

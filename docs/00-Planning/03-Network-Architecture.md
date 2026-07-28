@@ -1,4 +1,4 @@
-# Network Architecture
+# PLAN-03 – Network Architecture
 
 > Provides a high-level overview of the Enterprise SOC Lab network design.
 
@@ -47,4 +47,4 @@ This design supports secure administration, centralized logging, realistic attac
 
 | Previous | Phase Home | Next |
 | :--- | :---: | ---: |
-| [← Lab Objectives](02-Lab-Objectives.md) | [Planning](README.md) | [Software Inventory →](04-Software-Inventory.md) |
+| [← PLAN-02](02-Lab-Objectives.md) | [Planning](README.md) | [PLAN-04 →](04-Software-Inventory.md) |

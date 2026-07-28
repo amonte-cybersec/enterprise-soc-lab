@@ -1,4 +1,4 @@
-# Planning
+# 00-Planning
 
 > Defines the scope, architecture, technology stack, and implementation roadmap for the Enterprise SOC Lab.
 
@@ -50,4 +50,4 @@ By completing this phase, the following have been established:
 
 | Previous | Repository Home | Next Phase |
 | :--- | :---: | ---: |
-| [← Enterprise SOC Lab](../../README.md) | **Planning** | [Infrastructure →](../01-Infrastructure/README.md) |
+| [← Enterprise SOC Lab](../../README.md) | **Planning** | [01-Infrastructure →](../01-Infrastructure/README.md) |

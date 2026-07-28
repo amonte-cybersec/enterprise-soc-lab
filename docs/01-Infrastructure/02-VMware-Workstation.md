@@ -39,8 +39,10 @@ VMware Workstation Pro provides the following capabilities:
 
 ---
 
-> [!NOTE]
-> VMware Workstation Pro was selected because it supports multiple isolated virtual networks, flexible virtual hardware configuration, and enterprise-style lab deployments on a single physical workstation.
+> [!TIP]
+> ### Standardize Before You Scale
+>
+> Consistent virtual machine names, organized folders, and validated networking make the environment easier to manage as additional infrastructure is deployed. Small organizational decisions early in the project save significant time later.
 
 ---
 
@@ -92,4 +94,4 @@ The following screenshots document the VMware environment used throughout the En
 
 | Previous | Phase Home | Next |
 | :--- | :--- | :--- |
-| [INF-01 – Host System](INF-01-Host-System.md) | [Infrastructure](README.md) | [INF-03 – Virtual Networking](INF-03-Virtual-Networking.md) |
+| [INF-01 →](INF-01-Host-System.md) | [Infrastructure](README.md) | [INF-03 →](03-Virtual-Networks.md) |
